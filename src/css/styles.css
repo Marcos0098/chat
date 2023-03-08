@@ -1,0 +1,50 @@
+.header {
+  width: 100%;
+  background-color: black;
+  color: white;
+  padding: 20px;
+}
+
+.chat {
+  background-color: #eee;
+  width: 100%;
+}
+.chat .title {
+  background-color: rgb(197, 197, 197);
+  padding: 10px;
+  border-radius: 12px 12px 0px 0px;
+  color: #101010;
+}
+.chat .box-chat {
+  border: 1px solid black;
+  background-color: red;
+  margin: 0px 30%;
+  margin-top: 5%;
+  border-radius: 15px;
+}
+.chat .box-chat .chat-space {
+  height: 250px;
+}
+.chat .box-chat .chat-input {
+  display: flex;
+  padding: 15px;
+  gap: 30px;
+}
+.chat .box-chat .chat-input input[type=text] {
+  width: 80%;
+  border-radius: 10px;
+  padding: 7px;
+  border: 1px solid rgb(197, 197, 197);
+}
+.chat .box-chat .chat-input button {
+  border: 1px solid #e1e1e1;
+  background-color: grey;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+.chat .box-chat .chat-input button:hover {
+  position: relative;
+  top: 1px;
+}
+
+/*# sourceMappingURL=styles.css.map */
